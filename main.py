@@ -10,7 +10,7 @@ from state import Register
 from lang import langs
 
 
-bot = Bot(token='6993946718:AAEQ5CpFsjFj4Ea_unfkQ4FDGeQDoND9hgU')
+bot = Bot(token='')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 db = Database()
